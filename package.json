@@ -6,7 +6,7 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "build": "esbuild src/index.js --bundle --minify --sourcemap --platform=browser --format=esm --outfile=dist/yswipe.min.js --analyze"
+    "build": "esbuild src/index.js --bundle --minify --sourcemap --platform=browser --format=esm --outfile=dist/player.min.js --analyze"
   },
   "devDependencies": {
     "esbuild": "^0.21.3"

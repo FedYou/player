@@ -7,7 +7,7 @@ export default class Controls {
     this.#element.play();
   }
   pause() {
-    this.pause();
+    this.#element.pause();
   }
   retouch(cunt) {
     if (typeof cunt == 'number') {

@@ -1,0 +1,14 @@
+{
+  "name": "player",
+  "version": "1.0.0",
+  "description": "Audio driver",
+  "author": "FedYou",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --minify --sourcemap --platform=browser --format=esm --outfile=dist/yswipe.min.js --analyze"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.3"
+  }
+}

@@ -42,6 +42,10 @@ export default class {
   unmute() {
     this.#constrols.unmute();
   }
+  load(func) {
+    this.#constrols.load(func);
+  }
+
   //////
   get element() {
     return this.#element;

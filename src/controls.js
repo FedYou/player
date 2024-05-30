@@ -3,6 +3,11 @@ export default class Controls {
   constructor(element) {
     this.#element = element;
   }
+  load(func) {
+    this.#element.addEventListener('loadedmetadata', function () {
+      func();
+    });
+  }
   play() {
     this.#element.play();
   }
